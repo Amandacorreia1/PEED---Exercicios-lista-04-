@@ -1,10 +1,10 @@
 class Item:
-    def _init_(self, dado):
+    def __init__(self, dado):
         self.dado = dado
         self.proximo = None
 
 class ListaEncadeadaCircular:
-    def _init_(self):
+    def __init__(self):
         self.vetor = []
         self.inicio = None
         self.fim = None
